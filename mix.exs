@@ -1,7 +1,7 @@
 defmodule Qiniu.Mixfile do
   use Mix.Project
 
-  @version "0.3.0"
+  @version "0.3.1"
 
   def project do
     [app: :qiniu,
@@ -22,7 +22,7 @@ defmodule Qiniu.Mixfile do
   end
 
   defp deps do
-    [{:poison, "~> 2.1.0"},
+    [{:poison, "~> 3.1"},
      {:httpoison, "~> 0.8.3"},
      {:ex_doc, "~> 0.11.5", only: :docs},
      {:excoveralls, "~> 0.5.4", only: :test},
